@@ -116,10 +116,11 @@
          }
          ?>    
 
-    <fieldset>
+   
     <form action="<?php $_SERVER['PHP_SELF']?>" method="POST">
-
-        <h3>Basic information</h3>
+    <fieldset>
+        <legend>Basic information</legend>
+        <br>
         <label for="fname">Enter your First-tname</label>
         <input type="text" id="fname" name="fname" value="<?php echo $fname;?>"> 
         <span style=color:red><?php echo $fnameEr;?></span>
@@ -158,7 +159,7 @@
         <br>
         </fieldset>
         <fieldset>
-        <h3>Contact Information</h3>
+        <legend>Contact Information</legend>
         <br>
         <label for="p">Enter your address</label>
         <input type="text" id="p" name="p" value="<?php echo $p;?>">
@@ -186,7 +187,7 @@
         <br>
         </fieldset>
         <fieldset>
-        <h3>Account information</h3>
+        <legend>Account information</legend> 
         <label for="userName">User Name :</label>
         <input type="text" id="userName" name="userName"value="<?php echo $userName?>">
         <span style="color: red;"><?php echo $userNameEr;  ?></span>
