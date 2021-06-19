@@ -105,11 +105,8 @@
         
     }
     
-    
-    
     }
     
-
     function input($val) {
         $val= trim($val);
         $val = stripslashes($val);
@@ -211,6 +208,9 @@
      echo input($p). "<br>";
      echo  input($pp) ."<br>";
      echo input($c). "<br>";
+     echo input($m). "<br>";
+     echo  input($userName) ."<br>";
+     echo input($Password). "<br>";
      ?>
 
     
